@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>ServletUpload</servlet-name>
+        <servlet-class>ServletUpload</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>variables</servlet-name>
+        <servlet-class>variables</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>methods</servlet-name>
+        <servlet-class>methods</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletUpload</servlet-name>
+        <url-pattern>/ServletUpload</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>variables</servlet-name>
+        <url-pattern>/variables</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>methods</servlet-name>
+        <url-pattern>/methods</url-pattern>
+    </servlet-mapping>
+    
+
+
+    
+    <session-config>
+        <session-timeout>
+
+            30
+
+        </session-timeout>
+    </session-config>
+    
+        
+
+
+    
+
+    
+</web-app>
